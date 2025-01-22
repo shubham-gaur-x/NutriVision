@@ -50,13 +50,6 @@ To run the NutriVision application, use the command `streamlit run nutrivision_a
 
 ---
 
-## **File Structure**
-
-The project directory is organized as follows:
-
-NutriVision/ ├── nutrivision_app.py # Main Streamlit app file ├── requirements.txt # Dependencies ├── Dataset/ # Datasets folder │ ├── cleaned_food_data.csv # Cleaned USDA FoodData dataset │ ├── food-101/ # Food-101 dataset folder │ │ └── meta/ │ │ └── classes.txt ├── models/ # Pre-trained model │ └── food101_model.keras # Trained Food-101 model ├── README.md # Project documentation ├── .env # OpenAI API key (ignored in GitHub) └── .gitattributes # Git LFS tracking file
-
----
 
 ## **Deployment**
 
