@@ -60,7 +60,7 @@ def load_usda_data():
     """
     Load and cache the cleaned USDA FoodData Central dataset.
     """
-    dataset_path = './Dataset/USDA_FoodData/cleaned_food_data.csv'
+    dataset_path = './Dataset/cleaned_food_data.csv'
     usda_data = pd.read_csv(dataset_path)
     return usda_data
 
