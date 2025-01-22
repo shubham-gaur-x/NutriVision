@@ -86,12 +86,12 @@ def generate_dietary_insight(nutrition_text):
             messages=[
                 {"role": "system", "content": "You are a helpful nutrition assistant."},
                 {"role": "user", "content": f"Based on this data: {nutrition_text}, provide dietary advice."}
-            ],
-            max_tokens=100
+            ]
         )
         return response['choices'][0]['message']['content']
     except Exception as e:
         return f"Error generating dietary insight: {e}"
+
 
 
 # =========================
