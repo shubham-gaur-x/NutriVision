@@ -39,7 +39,8 @@ def load_food101_model():
     """
     Load the pre-trained Food-101 model and cache it for faster access.
     """
-    model_path = '/Users/shubhamgaur/Desktop/NU/Sem4/Gen AI/Project/food101_model.keras'
+#     model_path = '/Users/shubhamgaur/Desktop/NU/Sem4/Gen AI/Project/food101_model.keras'
+    model_path = 'food101_model.keras'
     model = tf.keras.models.load_model(model_path)
     return model
 
@@ -60,7 +61,8 @@ def load_usda_data():
     """
     Load and cache the cleaned USDA FoodData Central dataset.
     """
-    dataset_path = '/Users/shubhamgaur/Desktop/NU/Sem4/Gen AI/Project/Dataset/USDA FoodData/cleaned_food_data.csv'
+#     dataset_path = '/Users/shubhamgaur/Desktop/NU/Sem4/Gen AI/Project/Dataset/USDA FoodData/cleaned_food_data.csv'
+    dataset_path = 'Dataset/USDA FoodData/cleaned_food_data.csv'
     usda_data = pd.read_csv(dataset_path)
     return usda_data
 
@@ -71,6 +73,7 @@ def load_food_classes():
     Load and cache the Food-101 class labels.
     """
     classes_path = '/Users/shubhamgaur/Desktop/NU/Sem4/Gen AI/Project/Dataset/food-101/meta/classes.txt'
+    classes_path = 'Dataset/food-101/meta/classes.txt'
     with open(classes_path, "r") as file:
         food_classes = file.read().splitlines()
     return food_classes
