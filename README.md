@@ -15,7 +15,7 @@ NutriVision is an AI-powered web application designed to recognize food items fr
 
 ## **Demo**
 
-[https://nutrivisionai.streamlit.app/](https://nutrivisionai.streamlit.app/)
+[ShubhamGaur/Nutrivision](https://huggingface.co/spaces/ShubhamGaur/Nutrivision)
 
 ---
 
